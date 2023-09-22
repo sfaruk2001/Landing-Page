@@ -13,10 +13,10 @@ body {
 /* First Section */
 
 .first, footer {
-    background-color: #1F2937;
+    background-color: #528E3B;
 }
 
-.first, .second {
+.first, .second, .third {
     display: flex;
     flex-direction: column; 
     padding: 0px 100px; 
@@ -29,7 +29,7 @@ body {
     
     justify-content: center;
     align-items: baseline;
-    gap: 400px;
+    gap: 500px;
     margin-bottom: 70px;
     
 }
@@ -48,7 +48,7 @@ body {
 
 a {
     text-decoration: none;
-    color: gray;
+    color: white;
     margin: 10px;
 }
 
@@ -70,7 +70,7 @@ a {
 }
 
 .headDescription p {
-    color: gray;
+    color: white;
 }
 
 .headDescription h1, .headDescription p {
@@ -85,8 +85,8 @@ img.rain {
 
 .but {
     padding: 10px 30px;
-    color: #F9FAF8;
-    background-color: #3882F6;
+    color: #528E3B;
+    background-color: white;
     border-radius: 10px;
 }
 
@@ -97,8 +97,9 @@ img.rain {
     margin-bottom: 50px;
     text-align: center;
     font-size: 36px;
-    color: #1F2937;
+    color: #528E3B;
     font-weight: 800;
+
     
 }
 
@@ -112,8 +113,9 @@ img.rain {
 }
 
 .item > img {
-    max-width: 200px;
-    border: #3882F6 5px solid;
+    width: 200px;
+    height: 150px;
+    border: #528E3B 5px solid;
     border-radius: 10px;
 
 }
@@ -121,6 +123,7 @@ img.rain {
 .text {
     max-width: 200px;
     margin-top: 10px;
+    color: #1F2937;
 }
 
 /** Third Section */
@@ -128,27 +131,80 @@ img.rain {
 .third {
     background-color: #E5E7EB;
     padding: 50px 150px;
+    display: flex;
+    align-items: center;
+    
+
 }
 
 .quote {
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
-    width: 1200px;
+    width: 800px;
+    
 }
 
 .quotee {
     font-size: 36px;
     font-weight: bold;
-    float: right;
+    align-self: flex-end;
+    margin-right: 100px;
+    margin-top: -40px;
 }
 
 /** Fourth Section */
 .fourth {
-    padding: 150px;
+    padding: 75px;
     display: flex;
     justify-content: center;
+    font-size: 18px;
+    
+    
 }
+
+.signBlock {
+    background-color: #528E3B;
+    padding: 25px;
+    display: flex;
+    width: 900px;
+    justify-content: center;
+    gap: 150px;
+    color: #F9FAF8;
+    border-radius: 10px;
+
+}
+
+.signHead {
+    font-weight: bold;
+    font-size: 20px;   
+}
+
+.signHead2 {
+    color: white;
+}
+
+
+.signUp {
+    border-radius: 10px;
+    color: #528E3B;
+    border: 2px white solid;
+    background-color: white;
+    height: 35px;
+    padding: 0px 30px;
+    align-self: flex-end;
+}
+
+/** Footer */
+
+.copy {
+    text-align: center;
+    font-size: medium;
+    color: lightgray;
+    padding: 40px;
+}
+
+
 
 
 
